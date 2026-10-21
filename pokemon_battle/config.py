@@ -1,12 +1,12 @@
-WIDTH, HEIGHT = 960, 544
+WIDTH, HEIGHT = 1280, 720
 
 PIXEL = 8
 
-COLS, ROWS = WIDTH // PIXEL, HEIGHT // PIXEL      # 120 x 68 background "pixels"
+COLS, ROWS = WIDTH // PIXEL, HEIGHT // PIXEL      # 160 x 90 background "pixels"
 
-UI_TOP = 408                                      # where the dark menu panel starts
+UI_TOP = 560                                      # where the battle menu panel starts
 
-UI_ROW = UI_TOP // PIXEL                          # 51
+UI_ROW = UI_TOP // PIXEL                          # 70
 
 # Palette taken from the screenshot
 
